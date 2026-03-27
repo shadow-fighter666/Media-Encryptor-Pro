@@ -44,32 +44,38 @@ Follow these steps in your terminal or command prompt to get the project up and 
 Download the project to your local machine using Git:
 ```bash
 git clone https://github.com/shadow-fighter666/Media-Encryptor-Pro.git
-2. Navigate to the Project Folder
+```
+### 2. Navigate to the Project Folder
 code
-Bash
+```Bash
 cd Media-Encryptor-Pro
-3. Install the Required Libraries
+```
+### 3. Install the Required Libraries
 Install the necessary Python dependencies using pip.
 For Windows / Mac:
 code
-Bash
+```Bash
 pip install customtkinter opencv-python pillow numpy
+```
 For Linux (Kali / Ubuntu / Debian):
 (Note: Modern Linux environments use PEP 668. It is recommended to use a virtual environment or the break-system-packages flag).
 code
-Bash
 # Option A: Using the flag directly
+```bash
 pip3 install customtkinter opencv-python pillow numpy --break-system-packages
-
+```
 # Option B: Using a Virtual Environment (Recommended)
+```bash
 python3 -m venv myenv
 source myenv/bin/activate
 pip install customtkinter opencv-python pillow numpy
-▶️ How to Run the Application
+```
+### ▶️ How to Run the Application
 Once everything is installed, simply run the Python script to launch the GUI:
 code
-Bash
+```bash
 python MediaEncryptorPro.py
+```
 (Use python3 MediaEncryptorPro.py if you are on Linux or macOS).
 💡 How to Use
 Select a File: Click the Browse button to select an Image (.jpg, .png, etc.) or Video (.mp4, .avi, etc.).
@@ -78,5 +84,3 @@ Enter Key: Type in an integer (number) key. (Remember this key! You will need th
 Process: Click Start Processing. The new secured file will be saved in the exact same folder as your original file with encrypted_ or decrypted_ added to the filename!
 📝 License
 This project is open-source and available for educational and personal privacy purposes.
-code
-Code
