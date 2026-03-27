@@ -73,11 +73,13 @@ code
 ```bash
 python MediaEncryptorPro.py
 ```
+- ** There is 12.png file to test the tool
 (Use python3 MediaEncryptorPro.py if you are on Linux or macOS).
 💡 How to Use
 Select a File: Click the Browse button to select an Image (.jpg, .png, etc.) or Video (.mp4, .avi, etc.).
 Choose Operation: Use the dropdown menu to select whether you want to Encrypt, Decrypt, or Swap Pixels.
 Enter Key: Type in an integer (number) key. (Remember this key! You will need the exact same number to decrypt the file later).
 Process: Click Start Processing. The new secured file will be saved in the exact same folder as your original file with encrypted_ or decrypted_ added to the filename!
-📝 License
+
+###📝 License
 This project is open-source and available for educational and personal privacy purposes.
