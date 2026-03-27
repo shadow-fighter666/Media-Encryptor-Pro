@@ -1,8 +1,6 @@
 # 🛡️ Media Encryptor Pro
 Securely encrypt and decrypt your images and videos using custom cryptographic pixel manipulation.
-code
-Markdown
-# 🛡️ Media Encryptor Pro
+🛡️ Media Encryptor Pro
 
 **Media Encryptor Pro** is a sleek, modern Python desktop application that securely encrypts and decrypts your personal images and videos using advanced cryptographic pixel manipulation. 
 
@@ -25,7 +23,6 @@ In an era where data privacy is paramount, this tool empowers you to take full c
 ## 👨‍💻 Created & Developed By
 
 - **Prem Ghayal**
-- **Om Sapkal**
 
 ---
 
