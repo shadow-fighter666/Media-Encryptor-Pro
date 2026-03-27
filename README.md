@@ -57,11 +57,11 @@ pip install customtkinter opencv-python pillow numpy
 For Linux (Kali / Ubuntu / Debian):
 (Note: Modern Linux environments use PEP 668. It is recommended to use a virtual environment or the break-system-packages flag).
 code
-# Option A: Using the flag directly
+## Option A: Using the flag directly
 ```bash
 pip3 install customtkinter opencv-python pillow numpy --break-system-packages
 ```
-# Option B: Using a Virtual Environment (Recommended)
+## Option B: Using a Virtual Environment (Recommended)
 ```bash
 python3 -m venv myenv
 source myenv/bin/activate
@@ -73,7 +73,8 @@ code
 ```bash
 python MediaEncryptorPro.py
 ```
-- ** There is 12.png file to test the tool
+## There is 12.png file to test the tool
+
 (Use python3 MediaEncryptorPro.py if you are on Linux or macOS).
 💡 How to Use
 Select a File: Click the Browse button to select an Image (.jpg, .png, etc.) or Video (.mp4, .avi, etc.).
