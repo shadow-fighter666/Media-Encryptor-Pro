@@ -1,84 +1,82 @@
 # 🛡️ Media Encryptor Pro
 Securely encrypt and decrypt your images and videos using custom cryptographic pixel manipulation.
+code
+Markdown
 # 🛡️ Media Encryptor Pro
 
-> 🔐 **Secure Your Media. Protect Your Privacy. Stay in Control.**
+**Media Encryptor Pro** is a sleek, modern Python desktop application that securely encrypts and decrypts your personal images and videos using advanced cryptographic pixel manipulation. 
 
-**Media Encryptor Pro** is a modern Python desktop application designed to **encrypt and decrypt images & videos** using advanced pixel-level cryptographic techniques.
-
-In today’s digital world, privacy is not optional — it’s essential. This tool ensures your media files are **completely unreadable without the correct key**, keeping your personal data safe, offline, and under your control.
-
----
-
-## 🚀 Key Highlights
-
-- 🔒 **Strong Pixel-Based Encryption**
-- 🎥 **Supports Both Images & Videos**
-- ⚡ **Fast & Responsive (Multithreading)**
-- 🎯 **Simple Yet Powerful GUI**
-- 📴 **Works Fully Offline (No Data Leakage Risk)**
+In an era where data privacy is paramount, this tool empowers you to take full control of your personal media. It securely scrambles the underlying pixel data, rendering your files entirely unreadable to unauthorized viewers. Your media remains safe, completely offline, and accessible only to those who possess the exact cryptographic integer key.
 
 ---
 
 ## ✨ Features
 
-### 🖼️ Image Security
-- Encrypt & decrypt images using pixel value transformation
-- Maintain original resolution and structure
-
-### 🎥 Video Protection
-- Frame-by-frame encryption
-- Preserves video format while securing content
-
-### 🔀 Pixel Swapping
-- Advanced obfuscation technique
-- Structural manipulation of pixel columns for added security
-
-### 🎨 Modern GUI
-- Built using `customtkinter`
-- Supports:
-  - 🌙 Dark Mode  
-  - ☀️ Light Mode  
-  - 💻 System Theme  
-
-### ⚡ Performance Optimized
-- Multithreading prevents UI freezing
-- Smooth handling of large video files
-
-### 📊 Real-Time Feedback
-- Live progress bar
-- Status updates (frame/column tracking)
-
-### 🛑 Safe Cancel Feature
-- Stop processing anytime
-- No file corruption risk
+- **🖼️ Image Encryption & Decryption:** Secure your photos by shifting pixel color values using a custom key.
+- **🎥 Video Encryption & Decryption:** Scramble video files frame-by-frame without losing the video format.
+- **🔀 Pixel Swapping:** Add an extra layer of obfuscation to images by structurally swapping pixel columns.
+- **🚀 Modern UI:** Built with `customtkinter` featuring Dark, Light, and System themes.
+- **⚡ Multithreaded Processing:** Ensures the application remains fast and responsive without freezing during heavy video processing.
+- **📊 Live Progress Tracking:** Real-time progress bars and status updates tell you exactly what frame or column is currently being processed.
+- **🛑 Safe Cancel Operation:** Quickly abort long video processing tasks cleanly without corrupting your files.
 
 ---
 
-## 👨‍💻 Developers
+## 👨‍💻 Created & Developed By
 
-- **Prem Ghayal**  
+- **Prem Ghayal**
 - **Om Sapkal**
 
 ---
 
 ## ⚙️ Prerequisites
 
-Make sure you have:
-
-- ✅ Python 3.x installed  
-- ✅ pip (Python package manager)
-
-### Required Libraries:
-- `customtkinter`
-- `opencv-python`
-- `Pillow`
-- `numpy`
+Before you begin, ensure you have **Python 3.x** installed on your system. 
+You will also need to install the required third-party libraries: `customtkinter`, `opencv-python`, `Pillow`, and `numpy`.
 
 ---
 
-## 📥 Installation Guide
+## 📥 How to Download and Install
 
-### 1️⃣ Clone Repository
+Follow these steps in your terminal or command prompt to get the project up and running:
+
+### 1. Clone the Repository
+Download the project to your local machine using Git:
 ```bash
 git clone https://github.com/shadow-fighter666/Media-Encryptor-Pro.git
+2. Navigate to the Project Folder
+code
+Bash
+cd Media-Encryptor-Pro
+3. Install the Required Libraries
+Install the necessary Python dependencies using pip.
+For Windows / Mac:
+code
+Bash
+pip install customtkinter opencv-python pillow numpy
+For Linux (Kali / Ubuntu / Debian):
+(Note: Modern Linux environments use PEP 668. It is recommended to use a virtual environment or the break-system-packages flag).
+code
+Bash
+# Option A: Using the flag directly
+pip3 install customtkinter opencv-python pillow numpy --break-system-packages
+
+# Option B: Using a Virtual Environment (Recommended)
+python3 -m venv myenv
+source myenv/bin/activate
+pip install customtkinter opencv-python pillow numpy
+▶️ How to Run the Application
+Once everything is installed, simply run the Python script to launch the GUI:
+code
+Bash
+python MediaEncryptorPro.py
+(Use python3 MediaEncryptorPro.py if you are on Linux or macOS).
+💡 How to Use
+Select a File: Click the Browse button to select an Image (.jpg, .png, etc.) or Video (.mp4, .avi, etc.).
+Choose Operation: Use the dropdown menu to select whether you want to Encrypt, Decrypt, or Swap Pixels.
+Enter Key: Type in an integer (number) key. (Remember this key! You will need the exact same number to decrypt the file later).
+Process: Click Start Processing. The new secured file will be saved in the exact same folder as your original file with encrypted_ or decrypted_ added to the filename!
+📝 License
+This project is open-source and available for educational and personal privacy purposes.
+code
+Code
